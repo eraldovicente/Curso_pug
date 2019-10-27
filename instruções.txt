@@ -1,0 +1,18 @@
+Compilar:
+
+pug-cli
+https://github.com/pugjs/pug-cli
+
+Comandos:
+
+pug arquivo.pug
+*Compila uma só vez 
+
+pug -w arquivo.pug
+*Compila cada vez que o arquivo muda
+
+pug -w -P arquivo.pug
+*Compila HTML indentado
+
+pug diretorio
+*Compila todos os arquivos dentro desse diretorio
